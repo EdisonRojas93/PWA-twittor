@@ -3,7 +3,7 @@ const DINAMIC_CACHE = 'dinamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    // '/',
+    '/PWA-twittor/',
     'index.html',
     'css/style.css',
     'js/app.js',
@@ -25,7 +25,6 @@ self.addEventListener('fetch', event => {
         caches.match(event.request).then(res => {
 
             if (res) return res;
-
             return fetch(event.request)
         })
     );
