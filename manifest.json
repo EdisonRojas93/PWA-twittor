@@ -1,7 +1,7 @@
 {
     "short_name": "Twittor",
     "name": "Twittor para heroes",
-    "start_url": "/",
+    "start_url": "/PWA-twittor/",
     "background_color": "blue",
     "display": "standalone",
     "orientation": "portrait",
